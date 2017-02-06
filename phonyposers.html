@@ -12,7 +12,75 @@
     .oval_image{
         border-radius: 100%;
     }
+    .boxtest {
+        border: 10px src="https://s-media-cache-ak0.pinimg.com/originals/d3/c3/87/d3c387c35ed05d06e201b36bc8a9da1c.gif";
+        body background: solid white;
+        padding-top: 50 px;
+        padding-right: 1 px;
+        padding-bottom: 50 px;
+        padding-left: 1 px;
+    }
+    h1{
+        text-align: center;
+        color:#00F8FF;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:white;
+    }
+    li{
+        float: left;
+    }
+    li a, .dropbutton {
+        display: inline-block;
+        color: #00F8FF;
+        text-align: center;
+        padding: 14px 16px;
+    }
+    li a:hover, .dropdown:hover .dropbutton {
+        background-color:#D200FF;
+    }
+    li.dropdown{
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color:#CD68FF;
+    }
+    .dropdown-content a{
+        color:#00FF55;
+        padding: 12px 16px;
+        display: block;
+        text-align: center;
+    }
+    .dropdown-content a:hover {background-color:#00F8FF}
+
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
 </style>
+
+<body>
+<ul>
+	<li><a href="index.html">home</a></li>
+	<li><a href="interviews.html">interviews</a></li>
+		<li class="dropdown">
+			<a href="about.html" class="dropbutton">pics</a>
+			<div class="dropdown-content">
+				<a href="phonyposers.html">my pics :)</a>
+				<a href="superintoit.html">not my pics</a>
+				<a href="about.html">wormhole</a>
+			</div>
+		</li>
+	<li><a href="schedule.html">play w me</a></li>
+</ul>
+</body>
+
+<br />
 
 <body>
     <br /><br /><img class="center_img" src="http://i.imgur.com/ucrVK2W.png"><br /> <br /> <br /><br />
