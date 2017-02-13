@@ -1,0 +1,23 @@
+div {
+    border: 10px solid white;
+    background-color: #FF91CE;
+    padding-top: 50 px;
+    padding-right: 1 px;
+    padding-bottom: 50 px;
+    padding-left: 1 px;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.oval_image{
+    border-radius: 100%;
+}
+.center_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: #9093EB;
+}
